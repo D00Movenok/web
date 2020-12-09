@@ -1,0 +1,57 @@
+form, table {
+	margin: 15px;
+}
+
+div {
+	border: 1px solid grey;
+	border-radius: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 20px;
+}
+
+#form {
+	display: flex;
+}
+
+#tableStyle, #table {
+	display: none;
+}
+
+button:hover {
+	background-color: #aaaaaa;
+}
+
+button{
+	border: none;
+	border-radius: 10px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: left 15px center;
+	background-image: url(https://www.flaticon.com/svg/static/icons/svg/3039/3039361.svg);
+	padding: 9px 30px 9px 45px;
+	margin: 15px;
+}
+
+input, select, textarea {
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 9px 30px;
+	margin: 15px;
+}
+
+.noborder {
+	border: none;
+}
+
+.border {
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 15px;
+}
+
+.button-full {
+	width: 90%;
+}
